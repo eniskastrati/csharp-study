@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfTwoLowestPositiveInteg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateRectangleArea", "CalculateRectangleArea\CalculateRectangleArea.csproj", "{B4CE2778-5265-4453-851C-0E2B95036D61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareAreaAndPerimeterCalculator", "SquareAreaAndPerimeterCalculator\SquareAreaAndPerimeterCalculator.csproj", "{28F72633-5893-49E7-8AD5-47435097C9FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{B4CE2778-5265-4453-851C-0E2B95036D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4CE2778-5265-4453-851C-0E2B95036D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4CE2778-5265-4453-851C-0E2B95036D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F72633-5893-49E7-8AD5-47435097C9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F72633-5893-49E7-8AD5-47435097C9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F72633-5893-49E7-8AD5-47435097C9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F72633-5893-49E7-8AD5-47435097C9FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
