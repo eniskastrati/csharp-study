@@ -11,11 +11,18 @@ namespace TryCatchThrow_Exercises
             Console.WriteLine("###########");
             Console.WriteLine("   Math   #");
             Console.WriteLine("###########\n");
-
-            Console.Write("Please type in the first number: ");
-            num1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Please type in the first number: ");
-            num2 = Convert.ToInt32(Console.ReadLine());
+            try
+            {
+                Console.Write("Please type in the first number: ");
+                num1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Please type in the first number: ");
+                num2 = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            
 
             Console.ReadLine();
 
