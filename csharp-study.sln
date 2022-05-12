@@ -1,12 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfTwoLowestPositiveIntegers", "SumOfTwoLowestPositiveIntegers\SumOfTwoLowestPositiveIntegers.csproj", "{F2DF99BD-1AC7-4077-B5C8-AF8B9CC94D12}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfTwoLowestPositiveIntegers", "SumOfTwoLowestPositiveIntegers\SumOfTwoLowestPositiveIntegers.csproj", "{F2DF99BD-1AC7-4077-B5C8-AF8B9CC94D12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateRectangleArea", "CalculateRectangleArea\CalculateRectangleArea.csproj", "{B4CE2778-5265-4453-851C-0E2B95036D61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateRectangleArea", "CalculateRectangleArea\CalculateRectangleArea.csproj", "{B4CE2778-5265-4453-851C-0E2B95036D61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareAreaAndPerimeterCalculator", "SquareAreaAndPerimeterCalculator\SquareAreaAndPerimeterCalculator.csproj", "{28F72633-5893-49E7-8AD5-47435097C9FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareAreaAndPerimeterCalculator", "SquareAreaAndPerimeterCalculator\SquareAreaAndPerimeterCalculator.csproj", "{28F72633-5893-49E7-8AD5-47435097C9FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonthNameFromNumber", "MonthNameFromNumber\MonthNameFromNumber.csproj", "{6A414802-3896-4254-80C3-7A702B7A5FAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonthNameFromNumber", "MonthNameFromNumber\MonthNameFromNumber.csproj", "{6A414802-3896-4254-80C3-7A702B7A5FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchThrow_Exercises", "TryCatchThrow_Exercises\TryCatchThrow_Exercises.csproj", "{35E223FA-D232-44A2-8AF5-25C044E172CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +35,15 @@ Global
 		{6A414802-3896-4254-80C3-7A702B7A5FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A414802-3896-4254-80C3-7A702B7A5FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A414802-3896-4254-80C3-7A702B7A5FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E223FA-D232-44A2-8AF5-25C044E172CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E223FA-D232-44A2-8AF5-25C044E172CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E223FA-D232-44A2-8AF5-25C044E172CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E223FA-D232-44A2-8AF5-25C044E172CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1893EFA-00B4-49FE-A976-75AB51D0C3BF}
 	EndGlobalSection
 EndGlobal
