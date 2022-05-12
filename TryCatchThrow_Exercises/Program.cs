@@ -8,9 +8,9 @@ namespace TryCatchThrow_Exercises
         {
             int num1 = 0, num2 = 0, result = 0;
 
-            Console.WriteLine("###########");
-            Console.WriteLine("   Math   #");
-            Console.WriteLine("###########\n");
+            Console.WriteLine("############");
+            Console.WriteLine("#   Math   #");
+            Console.WriteLine("############\n");
             try
             {
 
