@@ -12,10 +12,18 @@ namespace ReadFile
             Console.ReadKey();
         }
 
-        public static string [] READ_FILE(sting pathToFile)
+        public static string [] READ_FILE(string pathToFile)
         {
-            string[] fileContent;
-            return fileContent = File.ReadAllLines(pathToFile, Encoding.UTF8);
+            try
+            {
+                string[] fileContent;
+                return fileContent = File.ReadAllLines(pathToFile, Encoding.UTF8);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
     }
     
