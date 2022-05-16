@@ -1,0 +1,3 @@
+Hello World!
+This is a text file with some small content on it!
+If you are able to see this file in console than the code works!
