@@ -1,11 +1,16 @@
 using System;
-namespace Main
+using System.IO;
+using System.Text;
+
+class Progam
 {
-	class Progam
-	{
-		static void Main(string[] args)
-		{
-			Console.WriteLine("hellow world");
-		}
-	}
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Enis Kastrati - Linux Mint");
+        string[] allText = File.ReadAllLines("text.txt");
+        foreach (string Line in allText)
+        {
+            Console.WriteLine(Line);
+        }
+    }
 }
