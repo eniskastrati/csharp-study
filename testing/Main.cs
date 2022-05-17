@@ -12,5 +12,12 @@ class Progam
         {
             Console.WriteLine(Line);
         }
+
+        Console.Write("Please type in a number: ");
+        decimal number = Convert.ToDecimal(Console.ReadLine());
+
+        Console.WriteLine("You number type is : {0}", number.GetType());
+
+        Console.ReadKey();
     }
 }
