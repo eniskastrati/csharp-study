@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareAreaAndPerimeterCalcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonthNameFromNumber", "MonthNameFromNumber\MonthNameFromNumber.csproj", "{6A414802-3896-4254-80C3-7A702B7A5FAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalFileEditor", "LocalFileEditor\LocalFileEditor.csproj", "{45063896-6740-4E17-A7E9-33697512CE11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{6A414802-3896-4254-80C3-7A702B7A5FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A414802-3896-4254-80C3-7A702B7A5FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A414802-3896-4254-80C3-7A702B7A5FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45063896-6740-4E17-A7E9-33697512CE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45063896-6740-4E17-A7E9-33697512CE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45063896-6740-4E17-A7E9-33697512CE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45063896-6740-4E17-A7E9-33697512CE11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
