@@ -12,11 +12,13 @@ namespace LocalFIleEditor
         {
             string path = "dhcp.txt";
             string[] dhcpText = CHANGE_FILE(path);
+            string[] macAdresses = GET_MAC_ADRESSES("dhcp.cfg", dhcpText);
 
-            foreach (var VARIABLE in dhcpText)
+            for (int i = 0; i < dhcpText.Length; i++)
             {
-                Console.WriteLine(VARIABLE);
+                Console.WriteLine(dhcpText[i]);
             }
+            
             
             
             Console.ReadKey();
@@ -39,6 +41,28 @@ namespace LocalFIleEditor
                 Console.WriteLine(e.Message);
             }
             return fileContent;
+        }
+
+        private static string[] GET_MAC_ADRESSES(string path, string [] configFile)
+        {
+            string[] dhcpAdresses = null;
+            string[] ram = null;
+            try
+            {
+                for (int i = 0; i < configFile.Length; i++)
+                {
+                    ram = configFile[i].Split(';');
+                    dhcpAdresses[i] = ram[1];
+
+                }
+                File.WriteAllLines("macAdresses.txt", dhcpAdresses, Encoding.UTF8);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
+            return dhcpAdresses;
         }
         
     }
