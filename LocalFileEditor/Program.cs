@@ -10,13 +10,14 @@ namespace LocalFIleEditor
     {
         static void Main(string[] args)
         {
-            string path = "dhcp.txt";
+            string path = @"./bin/Debug/net6.0/dhcp.txt";
             string[] dhcpText = CHANGE_FILE(path);
             string[] macAdresses = GET_MAC_ADRESSES("dhcp.cfg", dhcpText);
 
             for (int i = 0; i < dhcpText.Length; i++)
             {
                 Console.WriteLine(dhcpText[i]);
+				Console.WriteLine(macAdresses[i]);
             }
             
             
@@ -45,7 +46,7 @@ namespace LocalFIleEditor
 
         private static string[] GET_MAC_ADRESSES(string path, string [] configFile)
         {
-            string[] dhcpAdresses = null;
+            string[] dhcpAdresses = new string [configFile.Length];
             string[] ram = null;
             try
             {
