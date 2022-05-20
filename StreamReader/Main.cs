@@ -6,7 +6,24 @@ class Program
 {
 	static void Main(string[] args)
 	{
-		Console.WriteLine("Hello");
+		string path = "file.txt";
+
+		try
+		{	
+			StreamReader reader = new StreamReader;
+			while(!reader.EndOfFile)
+			{
+				reader.
+			}
+			
+		}
+		catch(Expresion e)
+		{
+			Console.WriteLine(e.Message);
+		}
+
+
+
 		Console.ReadKey();
 	}
 }
