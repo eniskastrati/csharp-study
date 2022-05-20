@@ -7,17 +7,18 @@ class Program
 	static void Main(string[] args)
 	{
 		string path = "file.txt";
-
+		string text = null;
 		try
 		{	
-			StreamReader reader = new StreamReader;
-			while(!reader.EndOfFile)
+			StreamReader reader = new StreamReader(path);
+			while(!reader.EndOfStream)
 			{
-				reader.
+				text = reader.ReadLine();
+				Console.WriteLine(text);	
 			}
 			
 		}
-		catch(Expresion e)
+		catch(Exception e)
 		{
 			Console.WriteLine(e.Message);
 		}
