@@ -1,0 +1,3 @@
+Hello
+Everyone!
+If you see this text the conosole app is working!!
