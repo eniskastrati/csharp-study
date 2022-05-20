@@ -6,7 +6,7 @@ class Program
 {
 	static void Main(string[] args)
 	{
-		string path = "file.txt";
+		string path = "logs.csv";
 		string text = null;
 		try
 		{	
