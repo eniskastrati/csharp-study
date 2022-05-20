@@ -20,6 +20,11 @@ class Program
 				Console.WriteLine("Logged Out date: \t{0}", text[3]);	
 				Console.WriteLine("Username: \t\t{0}\n", text[4]);	
 			}
+
+			if(reader.EndOfStream)
+			{
+				reader.Close();
+			}
 			
 		}
 		catch(Exception e)
