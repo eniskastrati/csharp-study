@@ -9,15 +9,7 @@ class Progam
         string path = "text.txt";
         Console.WriteLine("Enis Kastrati - Linux Mint");
         string[] allText = File.ReadAllLines(path);
-        foreach (string Line in allText)
-        {
-            Console.WriteLine(Line);
-        }
-
-        string[] newContent = { "Linux", allText.ToString() };
-        File.WriteAllLines(path, newContent);
-
-        foreach (string Line in allText)
+        foreach(string Line in allText)
         {
             Console.WriteLine(Line);
         }
